@@ -1,4 +1,4 @@
-# flutter_discovery
+# instagram_clone
 
 A new Flutter project.
 
