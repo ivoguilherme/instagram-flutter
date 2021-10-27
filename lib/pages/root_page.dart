@@ -9,9 +9,9 @@ class RootPage extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Discovery',
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: const HomePage(),
       routes: {
-        '/home': (_) => HomePage(),
+        '/home': (_) => const HomePage(),
       },
     );
   }

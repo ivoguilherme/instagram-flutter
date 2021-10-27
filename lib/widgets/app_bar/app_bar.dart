@@ -10,7 +10,7 @@ class MyAppBar extends StatefulWidget implements PreferredSizeWidget {
   // you can replace 100 to whatever value you wish to use
 
   @override
-  Size get preferredSize => const Size.fromHeight(100);
+  Size get preferredSize => const Size.fromHeight(80);
 }
 
 class _MyAppBarState extends State<MyAppBar> {
@@ -108,7 +108,7 @@ class _MyAppBarState extends State<MyAppBar> {
       ),
       child: Container(
         decoration: const BoxDecoration(color: Colors.black),
-        padding: const EdgeInsets.all(15),
+        padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 5),
         child: SafeArea(
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
